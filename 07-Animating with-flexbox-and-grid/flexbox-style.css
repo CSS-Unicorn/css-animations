@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.flex-item:hover {
+  margin: 0 20px;
+  transform: scale(1.2);
+}

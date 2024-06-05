@@ -1,0 +1,6 @@
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: translateX(20px);
+}

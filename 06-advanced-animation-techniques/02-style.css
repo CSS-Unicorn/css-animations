@@ -1,0 +1,21 @@
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50vw);
+  } /* 50% of the viewport width */
+}
+
+.box {
+  width: 10vw;
+  height: 10vw;
+  background-color: #3498db;
+  animation: moveBox 4s infinite alternate;
+}
+
+@media (max-width: 600px) {
+  .box {
+    animation: moveBox 2s infinite alternate;
+  }
+}

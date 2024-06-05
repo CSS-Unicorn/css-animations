@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript Animation Control</title>
+  </head>
+  <body>
+    <div class="box" id="box"></div>
+    <button onclick="startAnimation()">Start</button>
+    <button onclick="stopAnimation()">Stop</button>
+    <script>
+      function startAnimation() {
+        const box = document.getElementById("box");
+        box.style.animation = "moveBox 4s infinite alternate";
+      }
+
+      function stopAnimation() {
+        const box = document.getElementById("box");
+        box.style.animation = "none";
+      }
+    </script>
+  </body>
+</html>

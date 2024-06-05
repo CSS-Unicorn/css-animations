@@ -1,0 +1,6 @@
+.box {
+  transition: transform 0.3s ease;
+}
+.box:hover {
+  transform: rotate(15deg);
+}

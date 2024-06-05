@@ -1,0 +1,20 @@
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  animation: moveBox 4s infinite alternate;
+  transition: background-color 0.5s ease;
+}
+
+.box:hover {
+  background-color: #e74c3c;
+}

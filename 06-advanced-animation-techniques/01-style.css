@@ -1,0 +1,23 @@
+@keyframes changeColor {
+  0% {
+    background-color: #3498db;
+  }
+  100% {
+    background-color: #e74c3c;
+  }
+}
+
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  animation: changeColor 2s, moveBox 2s 2s;
+}

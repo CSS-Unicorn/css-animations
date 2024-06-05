@@ -1,0 +1,5 @@
+.box {
+  animation: example 2s;
+  /* Fallback for older browsers */
+  -webkit-animation: example 2s; /* For Safari and older versions of Chrome */
+}

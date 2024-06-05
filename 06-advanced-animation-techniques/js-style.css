@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #ff45be;
+  position: relative;
+}
+
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
