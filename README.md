@@ -1,4 +1,4 @@
-![Unlock the Power of CSS Books, Projects, and More-min](https://github.com/CSS-Unicorn/css-for-beginners/assets/71933266/1d2ea1af-69f2-4daf-9388-06adc27c24cf)
+![a-min 2](https://github.com/CSS-Unicorn/css-animations/assets/71933266/a954e696-9b00-4072-82d4-275c7b482e0b)
 
 # CSS Animations - Code Examples
 
