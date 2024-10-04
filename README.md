@@ -2,7 +2,7 @@
 
 # CSS Animations - Code Examples
 
-This repository contains all the code examples from the book ["CSS Animations: From Beginner to Expert in Animations."](https://www.mirayatechstore.com/products/css-animation-mastery) Dive in and see the examples live, just like in VS Code! 🎉
+This repository contains all the code examples from the book. Dive in and see the examples live, just like in VS Code! 🎉
 
 ## 📂 Repository Structure
 
